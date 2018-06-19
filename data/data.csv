@@ -1,0 +1,52 @@
+id,state,abbr,moved_fromabroad,college_educ
+1,Alabama,AL,0.3,20.4
+2,Alaska,AK,0.6,24.1
+4,Arizona,AZ,0.7,23.9
+5,Arkansas,AR,0.3,18.2
+6,California,CA,0.8,27.3
+8,Colorado,CO,0.6,33.4
+9,Connecticut,CT,0.8,32.9
+10,Delaware,DE,0.5,26.1
+11,District of Columbia,DC,1.8,49.1
+12,Florida,FL,1,24.1
+13,Georgia,GA,0.5,24.7
+15,Hawaii,HI,0.9,27.3
+16,Idaho,ID,0.4,22.4
+17,Illinois,IL,0.5,28.4
+18,Indiana,IN,0.4,20.8
+19,Iowa,IA,0.5,23.4
+20,Kansas,KS,0.5,27
+21,Kentucky,KY,0.3,19.3
+22,Louisiana,LA,0.3,19.8
+23,Maine,ME,0.4,25.6
+24,Maryland,MD,0.8,33.3
+25,Massachusetts,MA,1.1,35.5
+26,Michigan,MI,0.5,23.4
+27,Minnesota,MN,0.6,29.6
+28,Mississippi,MS,0.3,18.1
+29,Missouri,MO,0.3,23.8
+30,Montana,MT,0.3,26.2
+31,Nebraska,NE,0.5,25.8
+32,Nevada,NV,0.5,19.9
+33,New Hampshire,NH,0.4,31
+34,New Jersey,NJ,0.7,32.5
+35,New Mexico,NM,0.4,22.8
+36,New York,NY,0.8,30.4
+37,North Carolina,NC,0.5,24.3
+38,North Dakota,ND,0.4,25
+39,Ohio,OH,0.4,22.8
+40,Oklahoma,OK,0.4,21
+41,Oregon,OR,0.6,26.8
+42,Pennsylvania,PA,0.5,25.1
+44,Rhode Island,RI,0.7,27.9
+45,South Carolina,SC,0.4,22.5
+46,South Dakota,SD,0.4,23.8
+47,Tennessee,TN,0.4,21.5
+48,Texas,TX,0.8,23.5
+49,Utah,UT,0.7,25.8
+50,Vermont,VT,0.2,31.5
+51,Virginia,VA,0.9,31.7
+53,Washington,WA,1,28.7
+54,West Virginia,WV,0.2,16.6
+55,Wisconsin,WI,0.3,24.3
+56,Wyoming,WY,0.3,22.8
