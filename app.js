@@ -4,9 +4,9 @@ var svgWidth = 1200;
 var svgHeight = 800;
 
 var margin = {
-  top: 20,
+  top: 5,
   right: 40,
-  bottom: 50,
+  bottom: 40,
   left: 75
 };
 
@@ -51,7 +51,7 @@ d3.csv("data/data.csv", function (error, dataFile) {
     .range([0, width]);
 
   var yScale = d3.scaleLinear()
-    .domain([0, d3.max(dataFile, d => d.college_educ)])
+    .domain([15, 50])
     .range([height, 0]);
 
   // Step 6: Create Axes
@@ -81,24 +81,25 @@ d3.csv("data/data.csv", function (error, dataFile) {
   .append("circle")
   .attr("cx", d => xScale(d.moved_fromabroad))
   .attr("cy", d => yScale(d.college_educ))
-  .attr("r", "20")
+  .attr("r", "10")
   .attr("fill", "rgb(174, 214, 241)")
   .attr("stroke","grey");
 
 
-  var textGroup = chartGroup.selectAll("text")
+  var textGroup = chartGroup.selectAll("merp")
   .data(dataFile)
   .enter()
   .append("text")
   .attr("x", d => xScale(d.moved_fromabroad))
-  .attr("y", d => yScale(d.college_educ))
+  .attr("y", d => yScale(d.college_educ-.1))
   .attr("text-anchor", "middle")
+  .attr("font-size","10px")
   .text(d => d.abbr);
 
   // Step 9: Add titles
 
   chartGroup.append("text")
-    .attr("transform",`translate(${width / 2}, ${height + margin.top + 20})`)
+    .attr("transform",`translate(${width / 2}, ${height + margin.top + 30})`)
     .attr("text-anchor", "middle")
     .attr("font-size", "16px")
     .text("% Population Moved from Abroad within the last year");

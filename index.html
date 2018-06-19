@@ -6,8 +6,24 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
 	</head>
 	<body>
-		<div class="chart">
-		</div>
-		<script type="text/javascript" src="app.js"></script>
+		<h1>College Educated Population vs. Geographic Mobility from Abroad</h1>
+		<iframe src="d3.html" height="450" width="1250">
+		</iframe>
+
+		<p>This graph shows the correlation between individuals who are college educated, 
+			and the % of state population that had moved from abroad within the past year. 
+			These dimensions were compared in excel using the correlation function. The function 
+			returned a correlation coefficient of .76
+		</p>
+
+		<p>Data on the percentage of population with College+ Education was taken from the 
+			<a href="https://chronicdata.cdc.gov/Behavioral-Risk-Factors/BRFSS-2014-Overall/5ra3-ixqq">Behavioral Risk Factor Surveillance System</a>. 
+		</p>
+
+		<p>Data on the percentage of the population who moved from abroad within the last year was taken from the US Census Bureau's 
+			<a href="http://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml">Fact Finder Tool</a>. Specifically, 
+			Dataset: 2014 ACS 1-year Estimate and Table: S0701 Geographic Mobility by Selected Characteristics in the United States
+		</p>
+		
   </body>
 </html>
